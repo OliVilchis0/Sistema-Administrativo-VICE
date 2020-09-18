@@ -1,0 +1,27 @@
+#bg-darck{
+	-fx-Background-Color: #343A40;
+}
+
+#bg-white{
+	-fx-Background-Color: white;
+}
+
+.hbox-btn{
+	-fx-text-fill: white;
+	-fx-Background-Color: #343A40;
+}
+
+.hbox-btn:hover{
+	-fx-text-fill: #343A40;
+	-fx-Background-Color: white;
+}
+
+#img-vice{
+	-fx-spacing: 60px;
+}
+
+#bp-top{
+	-fx-spacing: 60px;
+	-fx-Background-Color: #343A40;
+}
+

@@ -10,5 +10,6 @@ public interface InventarioService {
 	public Inventario getInventario(long id);
 	public Inventario create(Inventario inv);
 	public Inventario Update(Inventario inv);
-	public Inventario delete(long id);
+	public void delete(long id);
+	public Inventario existe(Inventario inv);
 }

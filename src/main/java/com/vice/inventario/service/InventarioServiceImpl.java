@@ -8,7 +8,10 @@ import org.springframework.stereotype.Service;
 import com.vice.inventario.model.Inventario;
 import com.vice.inventario.repository.InventarioRepository;
 
+import lombok.extern.slf4j.Slf4j;
+
 @Service
+@Slf4j
 public class InventarioServiceImpl implements InventarioService{
 	
 	@Autowired
@@ -46,13 +49,20 @@ public class InventarioServiceImpl implements InventarioService{
 	}
 
 	@Override
-	public Inventario delete(long id) {
+	public void delete(long id) {
 		Inventario inventariodb = this.getInventario(id);
 		
-		if(inventariodb == null)
+		if(inventariodb != null)
+			repo.delete(inventariodb);
+	}
+	
+	@Override
+	public Inventario existe(Inventario inv) {
+		Inventario invdb = repo.siExisteInv(inv.getColor(), inv.getTalla(), inv.getCondicion());
+		if(invdb == null) 
 			return null;
-		
-		return repo.save(inventariodb);
+		else 
+			return invdb;
 	}
 
 }

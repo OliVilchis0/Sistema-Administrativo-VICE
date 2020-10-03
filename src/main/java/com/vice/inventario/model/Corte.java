@@ -2,10 +2,8 @@ package com.vice.inventario.model;
 
 import java.util.Date;
 
-import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -26,7 +24,7 @@ public class Corte {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private long id;
-	@ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
+	@ManyToOne()
 	@JoinColumn(name = "producto_id")
 	private Producto producto;
 	@Temporal(TemporalType.TIMESTAMP)
@@ -34,7 +32,7 @@ public class Corte {
 	@Column(name = "numero_playeras")
 	private int numPlayeras;
 	private float relacion;
-	@ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
+	@ManyToOne()
 	@JoinColumn(name = "talla_id")
 	private Talla talla;
 	private byte status;

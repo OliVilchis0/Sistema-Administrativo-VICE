@@ -1,0 +1,24 @@
+#valor-inventario{
+	-fx-Background-Color: rgb(0, 16, 49);
+	-fx-min-height: 40;
+}
+
+#configuracion{
+	-fx-Background-Color: rgb(0, 37, 112);
+	-fx-min-height: 40;
+}
+
+#rollos{
+	-fx-Background-Color: rgb(2, 68, 196);
+	-fx-min-height: 40;
+}
+
+#playeras{
+	-fx-Background-Color: rgb(25, 102, 252);
+	-fx-min-height: 40;
+}
+
+#corte{
+	-fx-Background-Color: rgb(41, 130, 255);
+	-fx-min-height: 40;
+}

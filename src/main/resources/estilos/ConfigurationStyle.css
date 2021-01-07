@@ -1,0 +1,16 @@
+/*================================PANEL CONFIGURATION STYLES=============================== */
+#bg-color{
+	-fx-Background-Color: rgb(208, 101, 3);
+}
+
+#bg-talla{
+	-fx-Background-Color: rgb(233, 147, 26);
+}
+
+#bg-diametro{
+	-fx-Background-Color: rgb(22, 145, 190);
+}
+
+#bg-tipo-rollo{
+	-fx-Background-Color: rgb(27, 54, 71);
+}

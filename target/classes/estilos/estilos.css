@@ -1,0 +1,57 @@
+@import "FormStyle.css";
+@import "ChartStyle.css";
+@import "ConfigurationStyle.css";
+@import "TableStyle.css";
+@import "InicioStyle.css";
+
+#border-color{
+	-fx-Background-Color: #fff;
+}
+
+#bg-darck{
+	-fx-Background-Color: #343A40;
+	-fx-text-fill: white;
+}
+
+#bg-white{
+	-fx-Background-Color: white;
+	-fx-text-fill: black;
+}
+
+#bg-darck:hover{
+	-fx-text-fill: #343A40;
+	-fx-Background-Color: white;
+}
+
+#bg-darck-simple{
+	-fx-text-fill: white;
+	-fx-Background-Color: #343A40;
+}
+
+#img-vice{
+	-fx-spacing: 60px;
+}
+
+#bp-top{
+	-fx-spacing: 60px;
+	-fx-Background-Color: #343A40;
+}
+
+#title-top{
+	-fx-text-fill: #FFFFFF;
+	-fx-min-height: 40;
+	-fx-Background-Color: #20A8D8;
+	-fx-font-size: 20px;
+}
+
+#alignment-center{
+	-fx-text-fill:#fff;
+}
+
+#HBox{
+	-fx-Background-Color: #D3D3D3;
+}
+
+.hyperlink:hover {
+    -fx-underline: true;
+}

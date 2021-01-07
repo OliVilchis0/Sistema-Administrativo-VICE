@@ -1,0 +1,88 @@
+.BorderPane{
+	-fx-Background-Color: #fff;
+}
+
+#bg-darck{
+	-fx-Background-Color: #343A40;
+	-fx-text-fill: white;
+}
+
+#bg-white{
+	-fx-Background-Color: white;
+	-fx-text-fill: black;
+}
+
+#bg-darck:hover{
+	-fx-text-fill: #343A40;
+	-fx-Background-Color: white;
+}
+
+#bg-darck-simple{
+	-fx-text-fill: white;
+	-fx-Background-Color: #343A40;
+}
+
+#img-vice{
+	-fx-spacing: 60px;
+}
+
+#bp-top{
+	-fx-spacing: 60px;
+	-fx-Background-Color: #343A40;
+}
+
+#title-top{
+	-fx-text-fill: #FFFFFF;
+	-fx-min-height: 40;
+	-fx-Background-Color: #20A8D8;
+	-fx-font-size: 20px;
+}
+
+#valor-inventario{
+	-fx-Background-Color: rgb(0, 16, 49);
+	-fx-min-height: 40;
+}
+
+#configuracion{
+	-fx-Background-Color: rgb(0, 37, 112);
+	-fx-min-height: 40;
+}
+
+#rollos{
+	-fx-Background-Color: rgb(2, 68, 196);
+	-fx-min-height: 40;
+}
+
+#playeras{
+	-fx-Background-Color: rgb(25, 102, 252);
+	-fx-min-height: 40;
+}
+
+#corte{
+	-fx-Background-Color: rgb(41, 130, 255);
+	-fx-min-height: 40;
+}
+
+#alignment-center{
+	-fx-text-fill:#fff;
+}
+
+
+/*================================PANEL CONFIGURATION STYLES=============================== */
+#bg-color{
+	-fx-Background-Color: rgb(208, 101, 3);
+}
+
+#bg-talla{
+	-fx-Background-Color: rgb(233, 147, 26);
+}
+
+#bg-diametro{
+	-fx-Background-Color: rgb(22, 145, 190);
+}
+
+#bg-tipo-rollo{
+	-fx-Background-Color: rgb(27, 54, 71);
+}
+
+/*==================================================================================== */

@@ -38,4 +38,47 @@ public class Corte {
 	@JoinColumn(name = "talla_id")
 	private Talla talla;
 	private byte status;
+	public long getId() {
+		return id;
+	}
+	public void setId(long id) {
+		this.id = id;
+	}
+	public Producto getProducto() {
+		return producto;
+	}
+	public void setProducto(Producto producto) {
+		this.producto = producto;
+	}
+	public Date getFecha() {
+		return fecha;
+	}
+	public void setFecha(Date fecha) {
+		this.fecha = fecha;
+	}
+	public int getNumPlayeras() {
+		return numPlayeras;
+	}
+	public void setNumPlayeras(int numPlayeras) {
+		this.numPlayeras = numPlayeras;
+	}
+	public float getRelacion() {
+		return relacion;
+	}
+	public void setRelacion(float relacion) {
+		this.relacion = relacion;
+	}
+	public Talla getTalla() {
+		return talla;
+	}
+	public void setTalla(Talla talla) {
+		this.talla = talla;
+	}
+	public byte getStatus() {
+		return status;
+	}
+	public void setStatus(byte status) {
+		this.status = status;
+	}
+
 }

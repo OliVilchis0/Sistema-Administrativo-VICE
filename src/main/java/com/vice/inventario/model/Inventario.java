@@ -31,4 +31,46 @@ public class Inventario {
 	private int total;
 	private double precio;
 	private int stock;
+	public long getId() {
+		return id;
+	}
+	public void setId(long id) {
+		this.id = id;
+	}
+	public Talla getTalla() {
+		return talla;
+	}
+	public void setTalla(Talla talla) {
+		this.talla = talla;
+	}
+	public Color getColor() {
+		return color;
+	}
+	public void setColor(Color color) {
+		this.color = color;
+	}
+	public byte getCondicion() {
+		return condicion;
+	}
+	public void setCondicion(byte condicion) {
+		this.condicion = condicion;
+	}
+	public int getTotal() {
+		return total;
+	}
+	public void setTotal(int total) {
+		this.total = total;
+	}
+	public double getPrecio() {
+		return precio;
+	}
+	public void setPrecio(double precio) {
+		this.precio = precio;
+	}
+	public int getStock() {
+		return stock;
+	}
+	public void setStock(int stock) {
+		this.stock = stock;
+	}
 }

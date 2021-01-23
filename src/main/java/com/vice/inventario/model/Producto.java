@@ -45,4 +45,84 @@ public class Producto {
 	public String toString() {
 		return this.partida;
 	}
+
+	public long getId() {
+		return id;
+	}
+
+	public void setId(long id) {
+		this.id = id;
+	}
+
+	public String getPartida() {
+		return partida;
+	}
+
+	public void setPartida(String partida) {
+		this.partida = partida;
+	}
+
+	public TipoProducto getTipoProducto() {
+		return tipoProducto;
+	}
+
+	public void setTipoProducto(TipoProducto tipoProducto) {
+		this.tipoProducto = tipoProducto;
+	}
+
+	public Talla getTalla() {
+		return talla;
+	}
+
+	public void setTalla(Talla talla) {
+		this.talla = talla;
+	}
+
+	public Talla getDiametro() {
+		return diametro;
+	}
+
+	public void setDiametro(Talla diametro) {
+		this.diametro = diametro;
+	}
+
+	public Color getColor() {
+		return color;
+	}
+
+	public void setColor(Color color) {
+		this.color = color;
+	}
+
+	public float getPeso() {
+		return peso;
+	}
+
+	public void setPeso(float peso) {
+		this.peso = peso;
+	}
+
+	public double getDocena() {
+		return docena;
+	}
+
+	public void setDocena(double docena) {
+		this.docena = docena;
+	}
+
+	public int getCantidad() {
+		return cantidad;
+	}
+
+	public void setCantidad(int cantidad) {
+		this.cantidad = cantidad;
+	}
+
+	public byte getStatus() {
+		return status;
+	}
+
+	public void setStatus(byte status) {
+		this.status = status;
+	}
 }
